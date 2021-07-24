@@ -136,6 +136,40 @@ header img {
     padding: 8px 0px;
 }   
 
+/** Main **/
+.animation-container{
+    padding: 70px 45px;
+    height: 500px;
+}
+
+.text-container{
+    text-align: center;
+}
+
+.text-container h1{
+    font-size: 40px;
+    margin:0px 0px 8px;
+}
+
+.text-container h2{
+    font-size: 18px;
+    margin:15px 0px 5px;
+}
+
+.image-animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.image-animation img{
+    width: 538px;
+}
+
+
+
+
+
 @media screen and (max-width: 800px) {
     .form-email form {
         flex-direction: column;
